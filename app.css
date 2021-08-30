@@ -1,0 +1,183 @@
+*{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: royalblue;
+padding: 0;
+margin: 0;
+}
+
+.fundo{
+    background-color: rgb(222, 235, 247) ; 
+}
+
+.topo{
+    background-image: linear-gradient(to top, #133773, #153f7a, #174681, #1a4e88,
+    #1e568f, #205b98, #2161a0,#2366a9, #266ab6, #2b6ec2, #3371ce, #3e74da);
+    padding: 10px;
+}
+
+.nomeEmpresa{
+    color: whitesmoke;
+    text-shadow: 1px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg,  rgb(222, 235, 247) 70%, whitesmoke 30%);
+}
+
+.iner{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.iner p{
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.fotoCentral{ 
+    width: 450px;
+    height: 300px;
+    border: 3px solid #133773;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.texEmprego {
+    width: 306px;
+}
+
+.contratada{
+    width: 300px;
+    height: 200px ;
+    border: 3px solid #133773;
+}
+
+.cabecalho{
+    background-color: royalblue;
+    border-radius: 30px 30px 30px 30px;
+    padding-bottom: 5px;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.txtcadastro {
+    color: whitesmoke;
+    text-shadow: 1px;
+    text-align: right;
+    margin-right: 30px;
+    padding: 10px;
+   }
+
+
+.backForm { 
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.linha{
+    display: flex;
+}
+
+.esp{
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.esp2{
+    margin: 10px;
+    flex-grow: 2;
+}
+
+.esp3{
+    margin: 10px;
+    flex-grow: 0;
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.botaoEnviar {
+    margin-top: 20px;
+    background-color: #225bbe;
+    border-radius: 10px 0px 10px 0px;
+    color:whitesmoke;
+    height: 30px; 
+    width:200px; 
+    transition: 0.5 linear;
+    font-size: 18px;
+}
+
+.botaoEnviar:hover{
+    background-color: whitesmoke;
+    color: #225bbe;
+    transition: 0.5s linear;
+}
+
+@media (max-width: 800px){
+    .flex2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .linha{
+        display:block;
+        text-align: center;
+    }
+    .backForm { 
+        padding: 5px;
+        background-color: whitesmoke;
+        border-radius: 0px 0px 30px 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .flex2 {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .texEmprego {
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .iner p{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .fotoCentral{ 
+        width: 350px;
+        height: 233px;
+        border: 3px solid #133773;
+    }
+
+    .cabecalho{
+        background-color: royalblue;
+        border-radius: 30px 30px 30px 30px;
+        padding-bottom: 5px;
+        width: 90vw;
+        margin: 0 auto;
+    }
+    
+
+    
+
+}
