@@ -99,6 +99,7 @@ const App = () => {
      }
    
       if (ok){
+     const user = await axios.post('https://banco-de-dados.herokuapp.com/register',form);
      if (user.status === 200){
        alert('Cadastro efetuado com sucesso!');
        window.location.reload();
@@ -109,6 +110,7 @@ const App = () => {
 
    const teste = async () => {
       
+    const testar = await axios.post('https://banco-de-dados.herokuapp.com/teste',form);
     if (testar.status === 200){
       document.getElementById('aviso').style.display = 'block';
       ok = false;
